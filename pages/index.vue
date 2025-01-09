@@ -6,7 +6,7 @@ useSeoMeta({
   ogTitle: t('seo.title'),
   description: t('seo.description'),
   ogDescription: t('seo.description'),
-  ogImage: 'https://salvemescoles.compromis.net/images/ogimage.png',
+  ogImage: 'https://valenciaparticipa.com/images/ogimage.png',
   twitterCard: 'summary_large_image',
 })
 </script>
@@ -16,6 +16,8 @@ useSeoMeta({
     <div class="container">
       <Hero />
       <Intro />
+      <ProposalForm />
+      <Calendar />
       <Share />
     </div>
   </main>

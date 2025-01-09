@@ -1,3 +1,8 @@
+<script setup>
+const config = useRuntimeConfig()
+const { data: stats } = useFetch(config.public.apiBase + 'stats')
+</script>
+
 <template>
   <section class="intro" id="intro">
     <article class="card rounded shadow intro-card">
@@ -33,12 +38,12 @@
 
       <div class="facts">
         <div class="fact">
-          <AnimatedNumber class="fact-number" :from="0" :to="0" :duration="1.25" />
+          <AnimatedNumber class="fact-number" :from="0" :to="stats.town" :duration="1.25" />
           <span class="fact-text">{{ $t('facts.pobles') }}</span>
         </div>
 
         <div class="fact">
-          <AnimatedNumber class="fact-number" :from="0" :to="0" :duration=".75" />
+          <AnimatedNumber class="fact-number" :from="0" :to="stats.city" :duration=".75" />
           <span class="fact-text">{{ $t('facts.barris') }}</span>
         </div>
       </div>
@@ -61,7 +66,7 @@
   }
 
   &-text {
-    font-size: var(--text-md);
+    font-size: var(--text-lg);
     margin-top: 2rem;
   }
 }

@@ -6,7 +6,7 @@
     </span>
   </h1>
   <div class="cta">
-    <a href="#centres">
+    <a href="#proposa">
       ↓ <span>{{ $t('header.cta') }}</span> ↓
     </a>
   </div>
@@ -17,7 +17,7 @@
   text-align: center;
 
   &-title {
-    height: calc(15rem + 15vh);
+    height: calc(10rem + 15vh);
   }
 
   &-warning {
