@@ -20,7 +20,7 @@ export default {
   },
 
   form: {
-    heading: 'Proposa millores',
+    heading: 'Envia la teua proposta',
     area: {
       1: 'Pobles afectats',
       2: 'Barris de València'

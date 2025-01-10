@@ -47,6 +47,24 @@ a {
   font-weight: bold;
 }
 
+.button-primary {
+  background: var(--primary);
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: 0.5s ease;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
 @include media-breakpoint-down(md) { 
   :root {
     --text-md: 1rem;

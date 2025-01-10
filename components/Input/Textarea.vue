@@ -7,11 +7,13 @@ defineProps({
 })
 
 const value = defineModel()
+const focused = ref(false)
+const hasValue = computed(() => focused.value || !!value.value)
 </script>
 
 <template>
-  <div class="input">
-    <label :for="id || name" class="">
+  <div :class="['input-field input-float input-md text-md input-border-default span-4', { 'input-has-value': hasValue }]">
+    <label :for="id || name" class="input-label lh-1">
       {{ label }}
     </label>
     <textarea
@@ -19,8 +21,9 @@ const value = defineModel()
       :name="name"
       v-bind="$attrs"
       v-model="value"
-      
-      class=""
+      class="input w-100"
+      @focus="focused = true"
+      @blur="focused = false"
     />
   </div>
 </template>
@@ -29,5 +32,14 @@ const value = defineModel()
 textarea {
   field-sizing: content;
   min-height: 100px;
+  display: block;
+}
+
+.input-float .input-label {
+  top: 2.25rem;
+}
+
+.input-float.input-has-value .input-label {
+  top: 2.25rem;
 }
 </style>

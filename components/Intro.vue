@@ -5,6 +5,7 @@ const { data: stats } = useFetch(config.public.apiBase + 'stats')
 
 <template>
   <section class="intro" id="intro">
+    <img src="~assets/images/men-at-work-down-under.svg" alt="" class="men-at-work-the-80s-band" />
     <article class="card rounded shadow intro-card">
       <h2 class="intro-title">
         {{ $t('intro.title') }}
@@ -56,6 +57,7 @@ const { data: stats } = useFetch(config.public.apiBase + 'stats')
 
 <style lang="scss" scoped>
 .intro {
+  position: relative;
   margin: calc(2rem + 5vh) 0;
   display: flex;
   gap: 1rem;
@@ -69,6 +71,15 @@ const { data: stats } = useFetch(config.public.apiBase + 'stats')
     font-size: var(--text-lg);
     margin-top: 2rem;
   }
+}
+
+.men-at-work-the-80s-band {
+  position: absolute;
+  top: 2px;
+  left: 1rem;
+  transform: translateY(-100%);
+  width: 25vw;
+  max-width: 300px;
 }
 
 .video {

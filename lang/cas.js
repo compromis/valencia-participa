@@ -1,59 +1,58 @@
 export default {
   header: {
-    title: 'Salvemos escuelas',
-    warning: 'Centros educativos en peligro',
-    cta: 'Consulta tu centro'
+    title: 'València Participa',
+    warning: 'El poble participa en la reconstrucció',
+    cta: 'Proposa millores'
   },
 
   seo: {
-    title: 'Salvemos escuelas - Centros educativos en peligro - Compromís',
-    description: 'El gobierno de Mazón (PP y VOX) ha anunciado recortes en el presupuesto de Educación'
+    title: 'València Participa - El poble participa en la reconstrucció - Compromís',
+    description: 'Si el poble ha salvat al poble, el poble ha de decidir sobre la reconstrucció'
   },
 
   intro: {
-    title: 'El gobierno de Mazón (PP y VOX) ha anunciado recortes en el presupuesto de Educación',
-    text: `
-      El gobierno del Botànic realizó más de 500 grandes reformas y construcciones de centros educativos.
-      También dejó hecha una planificación hasta 2027 de actuaciones en marcha y que ya se están tramitando.
-      Ahora, PP y Vox quieren paralizarlo y cientos de obras corren peligro de no realizarse por los recortes.
-    `
+    title: 'Si el poble ha salvat al poble, el poble ha de decidir sobre la reconstrucció',
   },
 
   facts: {
-    schools_in_danger: 'Centros educativos en peligro',
-    affected_municipalities: 'Municipios afectados',
-    alloted_budget: 'Adjudicados para construcción y mejoras de escuelas que no se ejecutarán',
-    jobs_in_danger: 'Puestos de trabajo de construcción afectados directamente o indirectamente.'
+    pobles: 'Propostes rebudes per als pobles de València afectats per la DANA',
+    barris: 'Propostes rebudes per als als barris de València',
   },
 
-  amiguitos: {
-    text: `
-      A més, han clavat un canvi de normativa que els permetrà no seguir criteris tècnics
-      per a decidir quins centres necessiten més rebre reformes o millores i poder
-      fer-ho directament a dit. Així podran beneficiar als seus "amiguitos".
-    `
+  form: {
+    heading: 'Envia la teua proposta',
+    area: {
+      1: 'Pobles afectats',
+      2: 'Barris de València'
+    },
+    types: {
+      1: 'Obres necessàries',
+      2: 'Serveis Socials',
+      3: 'Parcs i Jardins',
+      4: 'Serveis Municipals',
+      5: 'Mobilitat',
+      6: 'Altres',
+    },
+    postal_code: 'Escriu el teu codi postal',
+    town: 'Tria el teu poble',
+    name: 'Nom i cognoms',
+    phone: 'Telèfon de contacte',
+    type: 'Tipus de proposta',
+    description: 'Conta’ns la teua proposta',
+    submit: 'Envia la teua proposta'
   },
 
-  centres: {
-    title: 'Consulta si tu centro está en peligro',
-    filter: 'Encuentra tu centro...',
-    municipality: 'Municipio',
-    name: 'Centro',
-    no_results: 'Por ahora tienes suerte...'
-  },
-
-  contact: {
-    title: 'Buzón de consultas',
-    text: 'Hemos habilitado este buzón para escuchar tus problemas, tus dudas y tus solicitudes para hacerlas llegar a Les Corts Valencianes.'
+  calendar: {
+    heading: 'Calendari d’assemblees'
   },
 
   share: {
-    title: '¡Difúndelo!',
-    text: 'Comparte esta página con tus compañeros/as, vecinos/as y conocidos/as por una educación pública y de calidad.'
+    title: 'Fes difusió!',
+    text: 'Comparteix aquesta pàgina amb els teus companys/es, veïns/es i coneguts/des per tal de conèixer totes les demandes i propostes i poder treballar per la recuperació de València tras la DANA.'
   },
 
   video: {
-    play: 'Reproducir',
-    pause: 'Pausar'
+    play: 'Reprodueix',
+    pause: 'Pausa'
   }
 }

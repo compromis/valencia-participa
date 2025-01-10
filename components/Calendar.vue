@@ -19,20 +19,32 @@
     </div>
     <ul class="calendar-events">
       <li>
-        <h3>La Torre <span>18 de febrer, 19h</span></h3>
-        Plaça de l’Esglèsia
+        <div>
+          <h3>La Torre</h3>
+          Plaça de l’Esglèsia
+        </div>
+        <div class="date">18 de febrer, 19h</div>
       </li>
       <li>
-        <h3>Castellar l’Oliveral <span>18 de febrer, 19h</span></h3>
-        Plaça Major
+        <div>
+          <h3>Castellar l’Oliveral</h3>
+          Plaça Major
+        </div>
+        <div class="date">18 de febrer, 19h</div>
       </li>
       <li>
-        <h3>Forn d’Alcedo <span>20 de febrer, 19h</span></h3>
-        Carrer de baix
+        <div>
+          <h3>Forn d’Alcedo</h3>
+          Carrer de baix
+        </div>
+        <div class="date">20 de febrer, 19h</div>
       </li>
       <li>
-        <h3>Barris de València <span>25 de febrer, 18h</span></h3>
-        Plaça del Pilar
+        <div>
+          <h3>Barris de València</h3>
+          Plaça del Pilar
+        </div>
+        <div class="date">25 de febrer, 18h</div>
       </li>
     </ul>
   </section>
@@ -68,16 +80,30 @@
     padding-inline: var(--card-padding);
     padding-block: 1rem;
     border-top: 1px var(--gray-300) solid;
+    display: flex;
+    gap: .5rem;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 1rem;
+      height: 1rem;
+      background: var(--blue);
+      border-radius: 100%;
+      margin-top: .15em;
+    }
   }
 
   h3 {
     display: flex;
     align-items: center;
     font-size: var(--text-md);
+  }
 
-    span {
-      margin-inline-start: auto;
-    }
+  .date {
+    font-weight: bold;
+    margin-inline-start: auto;
+    font-size: var(--text-md);
   }
 }
 </style>

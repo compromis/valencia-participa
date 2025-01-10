@@ -48,7 +48,6 @@ async function submit() {
     <form @submit.prevent="submit">
       <InputRadioButtons
         id="area"
-        :label="$t('form.area')"
         v-model="form.area"
         :options="[
           { value: 'town', label: $t('form.area.1') },
@@ -57,7 +56,7 @@ async function submit() {
       />
       
       <Transition name="slide">
-        <div v-if="form.area">
+        <div v-if="form.area" class="form-container">
           <BInputGroup class="form-group">
             <BInput
               v-if="form.area === 'city'"
@@ -133,7 +132,8 @@ async function submit() {
     </form>
   </section>
   <section v-else class="card rounded shadow form-card" id="proposa">
-    Submitted
+    <h1>{{ $t('form.submitted.headline') }}</h1>
+    <p>{{ $t('form.submitted.text') }}</p>
   </section>
 </template>
 
@@ -148,5 +148,9 @@ async function submit() {
   box-shadow: none !important;
   border: 1px var(--gray-300) solid;
   padding: 0;
+}
+
+.form-container {
+  margin-top: 1.5rem;
 }
 </style>
