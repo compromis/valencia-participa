@@ -61,8 +61,8 @@
 
 .calendar-icon {
   position: absolute;
-  width: 8rem;
-  top: -2rem;
+  width: 9rem;
+  top: -3rem;
   right: -2rem;
   rotate: 5deg;
 }
@@ -79,7 +79,7 @@
 
 .calendar-text {
   font-size: var(--text-md);
-  max-width: 90%;
+  padding-right: 5rem;
 }
 
 .calendar-events {
