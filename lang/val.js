@@ -1,29 +1,29 @@
 export default {
   header: {
     title: 'València Participa',
-    warning: 'El poble participa en la reconstrucció',
+    warning: 'Participa en la transformació de València',
     cta: 'Proposa millores'
   },
 
   seo: {
     title: 'València Participa - El poble participa en la reconstrucció - Compromís',
-    description: 'Si el poble ha salvat al poble, el poble ha de decidir sobre la reconstrucció'
+    description: 'Que trien els pobles i els barris! València per a qui l’habita!'
   },
 
   intro: {
-    title: 'Si el poble ha salvat al poble, el poble ha de decidir sobre la reconstrucció',
+    title: 'Que trien els pobles i els barris! València per a qui l’habita!',
   },
 
   facts: {
-    pobles: 'Propostes rebudes per als pobles de València afectats per la DANA',
-    barris: 'Propostes rebudes per als als barris de València',
+    pobles: 'Propostes rebudes per als pobles de la ciutat de València afectats per la DANA',
+    barris: 'Propostes rebudes per als barris de València i per al conjunt de la ciutat',
   },
 
   form: {
     heading: 'Envia la teua proposta',
     area: {
-      1: 'Pobles afectats',
-      2: 'Barris de València'
+      1: 'Pedanies afectades per la DANA',
+      2: 'València'
     },
     types: {
       1: 'Obres necessàries',

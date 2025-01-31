@@ -6,14 +6,14 @@
         A Compromís la teua veu compta, per
         això <strong>convocarem assemblees de
         ciutat on podràs decidir sobre les
-        propostes de reconstrucció</strong> que
+        propostes per millorar València </strong> que
         portem al Ple de l’Ajuntament
       </p>
       <p v-if="$i18n.locale === 'cas'" class="calendar-text">
         A Compromís la teua veu compta, per
         això <strong>convocarem assemblees de
         ciutat on podràs decidir sobre les
-        propostes de reconstrucció</strong> que
+        propostes per millorar València </strong> que
         portem al Ple de l’Ajuntament
       </p>
     </div>
@@ -23,28 +23,28 @@
           <h3>La Torre</h3>
           Plaça de l’Esglèsia
         </div>
-        <div class="date">18 de febrer, 19h</div>
+        <div class="date">Data per determinar</div>
       </li>
       <li>
         <div>
           <h3>Castellar l’Oliveral</h3>
           Plaça Major
         </div>
-        <div class="date">18 de febrer, 19h</div>
+        <div class="date">Data per determinar</div>
       </li>
       <li>
         <div>
           <h3>Forn d’Alcedo</h3>
           Carrer de baix
         </div>
-        <div class="date">20 de febrer, 19h</div>
+        <div class="date">Data per determinar</div>
       </li>
       <li>
         <div>
           <h3>Barris de València</h3>
           Plaça del Pilar
         </div>
-        <div class="date">25 de febrer, 18h</div>
+        <div class="date">Data per determinar</div>
       </li>
     </ul>
   </section>

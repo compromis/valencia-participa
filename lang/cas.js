@@ -1,58 +1,58 @@
 export default {
   header: {
     title: 'València Participa',
-    warning: 'El poble participa en la reconstrucció',
-    cta: 'Proposa millores'
+    warning: 'Participa en la transformación de València',
+    cta: 'Propon mejoras'
   },
 
   seo: {
-    title: 'València Participa - El poble participa en la reconstrucció - Compromís',
+    title: 'València Participa - Participa en la transformación de València - Compromís',
     description: 'Si el poble ha salvat al poble, el poble ha de decidir sobre la reconstrucció'
   },
 
   intro: {
-    title: 'Si el poble ha salvat al poble, el poble ha de decidir sobre la reconstrucció',
+    title: '¡Que elijan los pueblos y los barrios! ¡València para quien la habita!',
   },
 
   facts: {
-    pobles: 'Propostes rebudes per als pobles de València afectats per la DANA',
-    barris: 'Propostes rebudes per als als barris de València',
+    pobles: 'Propuestas recibidas para los pueblos de la ciudad de València afectados por la DANA',
+    barris: 'Propuestas recibidas para los barrios de València y para el conjunto de la ciudad',
   },
 
   form: {
-    heading: 'Envia la teua proposta',
+    heading: 'Envia tu propuesta',
     area: {
-      1: 'Pobles afectats',
-      2: 'Barris de València'
+      1: 'Pedanías afectadas por la DANA',
+      2: 'València'
     },
     types: {
-      1: 'Obres necessàries',
-      2: 'Serveis Socials',
-      3: 'Parcs i Jardins',
-      4: 'Serveis Municipals',
-      5: 'Mobilitat',
-      6: 'Altres',
+      1: 'Obras necesarias',
+      2: 'Servicios Sociales',
+      3: 'Parques y Jardines',
+      4: 'Servicios Municipales',
+      5: 'Movilidad',
+      6: 'Otros',
     },
-    postal_code: 'Escriu el teu codi postal',
-    town: 'Tria el teu poble',
-    name: 'Nom i cognoms',
-    phone: 'Telèfon de contacte',
-    type: 'Tipus de proposta',
-    description: 'Conta’ns la teua proposta',
-    submit: 'Envia la teua proposta'
+    postal_code: 'Escribe tu código postal',
+    town: 'Elije tu pedanía',
+    name: 'Nombre y apellidos',
+    phone: 'Teléfono de contacto',
+    type: 'Tipo de propuesta',
+    description: 'Cuéntanos tu propuesta',
+    submit: 'Envía tu propuesta'
   },
 
   calendar: {
-    heading: 'Calendari d’assemblees'
+    heading: 'Calendario de asambleas'
   },
 
   share: {
-    title: 'Fes difusió!',
-    text: 'Comparteix aquesta pàgina amb els teus companys/es, veïns/es i coneguts/des per tal de conèixer totes les demandes i propostes i poder treballar per la recuperació de València tras la DANA.'
+    title: '¡Haz difusión!',
+    text: 'Comparte esta página con tus amistades, vecinos/as, conocidos/as para conocer todas las demandas y propuestas y poder trabajar por la recuperación de València tras la DANA.'
   },
 
   video: {
-    play: 'Reprodueix',
+    play: 'Reproducir',
     pause: 'Pausa'
   }
 }

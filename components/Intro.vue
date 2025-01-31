@@ -12,29 +12,11 @@ const { data: stats } = useFetch(config.public.apiBase + 'stats')
       </h2>
 
       <p v-if="$i18n.locale === 'val'" class="intro-text">
-        L’Alcaldessa de València María José
-        Catalá no vol escoltar als veïns i
-        veïnes dels pobles afectats per la
-        DANA. <strong>Compromís recollim les
-        propostes de tot el veïnat per
-        debatre-les cara a cara en
-        assemblees ciutadanes</strong> i traslladar
-        les propostes al Ple de l’Ajuntament de
-        València, on també donarem veu al
-        veïnat
+        El govern de PP i VOX han eliminat les propostes dels veïns i veïnes per millorar la ciutat. María José Catalá no vol escoltar al veïnat de València, però <strong>Compromís volem seguir escoltant les vostres propostes</strong> per debatre-les en assemblees ciutadanes i portar-les al Ple de l’Ajuntament de València, on també donarem veu al veïnat.
       </p>
 
       <p v-if="$i18n.locale === 'cas'" class="intro-text">
-        L’Alcaldessa de València María José
-        Catalá no vol escoltar als veïns i
-        veïnes dels pobles afectats per la
-        DANA. Compromís recollim les
-        propostes de tot el veïnat per
-        debatre-les cara a cara en
-        assemblees ciutadanes i traslladar
-        les propostes al Ple de l’Ajuntament de
-        València, on també donarem veu al
-        veïnat
+        El gobierno de PP y VOX han eliminado las propuestas de los vecinos y vecinas para mejorar la ciudad. María José Catalá no quiere escuchar a los vecinos de València, pero <strong>Compromís queremos seguir escuchando vuestras propuestas</strong> para debatirlas en asambleas ciudadanas y llevarlas al Pleno del Ayuntamiento de València, donde también daremos voz a los vecinos.
       </p>
 
       <div class="facts">

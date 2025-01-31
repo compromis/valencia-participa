@@ -58,15 +58,6 @@ async function submit() {
       <Transition name="slide">
         <div v-if="form.area" class="form-container">
           <BInputGroup class="form-group">
-            <BInput
-              v-if="form.area === 'city'"
-              id="postal_code"
-              :label="$t('form.postal_code')"
-              v-model="form.postal_code"
-              pattern="[0-9]+"
-              required
-              variant="float"
-            />
             <BSelect
               v-if="form.area === 'town'"
               id="town"
@@ -75,7 +66,7 @@ async function submit() {
               required
               variant="float"
             >
-              <option value="La Torre">La Torre</option>
+              <option value="La Torre">La Torre / Faitanar</option>
               <option value="Forn d'Alcedo">Forn d’Alcedo</option>
               <option value="Castellar-l'Oliveral">Castellar-l’Oliveral</option>
             </BSelect>
