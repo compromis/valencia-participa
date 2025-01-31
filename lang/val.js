@@ -6,7 +6,7 @@ export default {
   },
 
   seo: {
-    title: 'València Participa - El poble participa en la reconstrucció - Compromís',
+    title: 'València Participa - Participa en la transformació de València - Compromís',
     description: 'Que trien els pobles i els barris! València per a qui l’habita!'
   },
 
