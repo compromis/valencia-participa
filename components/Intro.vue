@@ -31,9 +31,9 @@ const { data: stats } = useFetch(config.public.apiBase + 'stats')
         </div>
       </div>
     </article>
-    <aside class="video shadow">
+    <!--<aside class="video shadow">
       <IntroVideo />
-    </aside>
+    </aside>-->
   </section>
 </template>
 

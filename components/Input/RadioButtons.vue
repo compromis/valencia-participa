@@ -45,13 +45,17 @@ const value = defineModel()
       color: var(--white);
       border-radius: .75rem;
       font-weight: bold;
-      font-size: var(--text-2xl);
+      font-size: var(--text-xl);
       line-height: 1.1;
       text-align: center;
       padding: 1rem;
       cursor: pointer;
       transition: .25s ease;
       outline-offset: 3px;
+      flex-basis: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       &:hover {
         opacity: .75;
