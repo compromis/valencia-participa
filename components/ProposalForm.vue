@@ -122,9 +122,10 @@ async function submit() {
       </Transition>
     </form>
   </section>
-  <section v-else class="card rounded shadow form-card" id="proposa">
+  <section v-else class="card rounded shadow form-card submitted" id="proposa">
     <h1>{{ $t('form.submitted.headline') }}</h1>
     <p>{{ $t('form.submitted.text') }}</p>
+    <img src="../assets/images/smiling-face-with-smiling-eyes_1f60a.png" alt="Cara somreint" />
   </section>
 </template>
 
@@ -143,5 +144,22 @@ async function submit() {
 
 .form-container {
   margin-top: 1.5rem;
+}
+
+.submitted {
+  position: relative;
+
+  p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: var(--text-md);
+  }
+
+  img {
+    position: absolute;
+    width: 6rem;
+    right: -2rem;
+    top: -2rem;
+  }
 }
 </style>

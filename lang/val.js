@@ -39,7 +39,11 @@ export default {
     phone: 'Telèfon de contacte',
     type: 'Tipus de proposta',
     description: 'Conta’ns la teua proposta',
-    submit: 'Envia la teua proposta'
+    submit: 'Envia la teua proposta',
+    submitted: {
+      headline: 'Gràcies per la teua proposta!',
+      text: 'Comunicarem amb tu per fer-la possible!'
+    }
   },
 
   calendar: {

@@ -2,6 +2,7 @@
   <section class="card rounded shadow calendar-card">
     <div class="card-padding">
       <h2 class="calendar-title">{{ $t('calendar.heading') }}</h2>
+      <img src="../assets/images/tear-off-calendar_1f4c6.png" alt="Calendari" class="calendar-icon" />
       <p v-if="$i18n.locale === 'val'" class="calendar-text">
         A Compromís la teua veu compta, per
         això <strong>convocarem assemblees de
@@ -55,6 +56,15 @@
   max-width: var(--max-width);
   margin-inline: auto;
   padding: 0;
+  position: relative;
+}
+
+.calendar-icon {
+  position: absolute;
+  width: 8rem;
+  top: -2rem;
+  right: -2rem;
+  rotate: 5deg;
 }
 
 .card-padding {
@@ -69,6 +79,7 @@
 
 .calendar-text {
   font-size: var(--text-md);
+  max-width: 90%;
 }
 
 .calendar-events {
